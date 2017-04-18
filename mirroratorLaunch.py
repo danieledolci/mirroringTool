@@ -4,7 +4,6 @@ import mirroratorCore as mirroratorCore
 from shiboken import wrapInstance
 import maya.OpenMayaUI as omui
 import maya.cmds as cmds
-reload(customUI)
 
 def maya_main_window():
     main_window_ptr = omui.MQtUtil.mainWindow()
