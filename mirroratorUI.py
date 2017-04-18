@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'design.ui'
-#
-# Created: Thu Feb 16 18:40:08 2017
-#      by: pyside-uic 0.2.15 running on PySide 1.2.4
-#
-# WARNING! All changes made in this file will be lost!
-
 from PySide import QtCore, QtGui
 
 class Ui_MainWindow(object):
@@ -198,13 +189,4 @@ class Ui_MainWindow(object):
         self.actionDaniele_Dolci.setText(QtGui.QApplication.translate("MainWindow", "Daniele Dolci", None, QtGui.QApplication.UnicodeUTF8))
         self.actionHelp.setText(QtGui.QApplication.translate("MainWindow", "Help", None, QtGui.QApplication.UnicodeUTF8))
 
-"""
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    MainWindow = QtGui.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
-"""
+
